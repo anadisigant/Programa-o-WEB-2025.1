@@ -1,0 +1,27 @@
+h1, h2 {
+    text-align: center;
+}
+
+p, li {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+ul {
+    display: table;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.link-anterior {
+    padding-right: 50px;
+}
+
+.link-seguinte {
+    padding-left: 50px;
+}

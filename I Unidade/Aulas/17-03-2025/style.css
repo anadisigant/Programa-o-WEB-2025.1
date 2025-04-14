@@ -1,0 +1,64 @@
+@keyframes piscar {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.blink {
+    animation: piscar 5s infinite;
+}
+
+h4 {
+    color: maroon;
+}
+
+h1 {
+    background-color: brown;
+    color:antiquewhite;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(215, 178, 129);
+    background-image: url(/images/jacquin.jpeg);
+}
+
+#horario {
+    border-color: maroon;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: brown;
+    background-color:brown;
+    padding: 20px;
+    margin: 10px 100px;
+    text-align: center;
+    float: right;
+    color:antiquewhite;
+}
+
+#restaurante {
+    border-color: maroon;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: brown;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;  
+    text-align: center; 
+    background-image: url(/images/jacquin2.jpg);
+}
+
+#refeiçoes {
+    border-color: maroon;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: brown;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    text-align: center;
+}

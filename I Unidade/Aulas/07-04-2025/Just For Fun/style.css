@@ -1,0 +1,32 @@
+table {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: thin solid #00E04C;
+    caption-side: bottom;
+    border-collapse: collapse;
+    align-content: center;  
+}
+
+td,th {
+    border: thin groove #00E04C;
+    padding: 5px;
+}
+
+th {
+    background-color: #0037E0;
+    color: #E1D73E;
+}
+
+td {
+    background-color: #E1D73E;
+    color: #0037E0;
+}
+
+body {
+    background-image: url(images/Brasil.jpeg);
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    margin: 0;
+  }

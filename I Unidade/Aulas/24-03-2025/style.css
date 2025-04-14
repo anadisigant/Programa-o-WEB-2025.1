@@ -1,0 +1,31 @@
+body {
+    background-image: url(/images/sleeping.png);
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: #ffff66;
+    background-color: #00f2f2;
+    text-align: center;
+}
+
+#girl {
+    color: blue;
+    background-color: #ffff66;
+    display: inline;
+}
+
+ul {
+    color: purple;
+}
+
+#boy {
+    color: #ff66ff;
+    background-color: #ffff66;
+    display: inline;
+}
+

@@ -1,0 +1,13 @@
+.bg {
+    margin: 0 auto;
+    display: inline; 
+}
+
+.imagens {
+    margin: 0 auto; 
+    display: flex; 
+}
+
+h1 {
+    text-align: center;
+}
