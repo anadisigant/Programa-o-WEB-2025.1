@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  font-size: medium;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+}
+
+caption {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+th, td {
+  padding: 8px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+td, th {
+  border-left: none;
+  border-right: none;
+}
+
+th {
+  text-align: left;
+  font-weight: bold;
+}
+
+th:nth-child(3) {
+  text-align: center;
+}
+
+td:nth-child(3) {
+  text-align: center;
+}
+
+td:not(:nth-child(3)) {
+  text-align: left;
+}
+
+tr.br {
+  color: red;
+  font-weight: bold;
+}
